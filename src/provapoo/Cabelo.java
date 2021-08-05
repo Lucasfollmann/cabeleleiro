@@ -9,53 +9,53 @@ package provapoo;
  *
  * @author Lucas
  */
-public class SizePizza {
+public class Cabelo {
 
-    int amountofflavors;
+    int amountcabelo;
     double valueSize;
     double Valuewithborder;
     String Size;
     int Validador = 0;
-    EdgeFlavor edgeflavor = new EdgeFlavor();
+    Barba edgeflavor = new Barba();
 
     public int selectSize(int op) {
 
         switch (op) {
             case 1:
-                amountofflavors = 5;
-                Size = "Gigante";
+                amountcabelo = 5;
+                Size = "careca";
                 valueSize = 75;
                 Valuewithborder = 80;
                 break;
 
             case 2:
-                amountofflavors = 4;
-                Size = "Familia";
+                amountcabelo = 4;
+                Size = "degradê";
                 valueSize = 66;
                 Valuewithborder = 69.5;
                 break;
 
             case 3:
-                amountofflavors = 3;
-                Size = "Media";
+                amountcabelo = 3;
+                Size = "moicano";
                 valueSize = 52;
                 Valuewithborder = 56.5;
                 break;
 
             case 4:
-                amountofflavors = 3;
-                Size = "Pequena";
+                amountcabelo = 3;
+                Size = "dreadloks";
                 valueSize = 42;
                 Valuewithborder = 44.5;
                 break;
 
             case 5:
-                amountofflavors = 2;
-                Size = "Broto";
+                amountcabelo = 2;
+                Size = "social";
                 valueSize = 28;
                 Validador = 1;
                 break;
         }
-        return amountofflavors;
+        return amountcabelo;
     }
 }

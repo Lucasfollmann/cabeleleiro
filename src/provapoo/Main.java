@@ -16,12 +16,12 @@ public class Main {
      */
     public static void main(String[] args) {
       
-        Order order = new Order();
-        SizePizza size = new SizePizza();
-        Flavor flavor = new Flavor();
-        EdgeFlavor edge = new EdgeFlavor();
+        Kit kit = new Kit();
+        Cabelo cabelo = new Cabelo();
+        Sobrancelha sobrancelha = new Sobrancelha();
+        Barba barba= new Barba();
         Drink drink = new Drink();
         
-        order.order();
+        main.Kit();
     }
 }
